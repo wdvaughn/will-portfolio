@@ -1,0 +1,59 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: auto;
+    background-image: url(assets/images/prism.png);
+}
+
+.clearfix::
+{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+header
+{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    align-items: center;
+    width: 960px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo
+{
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 5px;
+}
+
+.pic
+{
+    display: flex;
+    position: relative;
+}
+
+img
+{
+    border-color: #000000;
+    border-width: 5px;
+}
+
+a
+{
+    float: right;
+    padding: 15px;
+    border-right: 5px;
+}
+
+section
+{
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
